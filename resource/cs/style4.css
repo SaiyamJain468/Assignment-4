@@ -621,6 +621,11 @@ footer {
     .prate { margin-left: auto; text-align: right; min-width: 70px; }
     .pscaper { flex: 0 0 120px; }
     .additem { display: block; width: 100%; text-align: center; padding: 8px 0; font-size: 0.9rem; border-radius: 8px; white-space: nowrap; }
+    .grid2{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
 }
 @media (max-width: 480px) {
     .home-head h2 { font-size: 1.5rem; }
